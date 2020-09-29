@@ -5,12 +5,12 @@ const billInput = document.querySelector('#bill')
 const tipInput = document.querySelector('#tip')
 const peopleInput = document.querySelector('#people')
 
-// Add Event Listeners
+// Add Event Listeners 
 billInput.addEventListener('input', calculateTip)
 tipInput.addEventListener('input', calculateTip)
 peopleInput.addEventListener('input', calculateTip)
 
-// Creation of calculateTip function
+// Creation of calculateTip function 
 function calculateTip() {
     const billValue = parseFloat(billInput.value)
     const tipValue = parseInt(tipInput.value) 
