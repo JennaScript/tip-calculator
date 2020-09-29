@@ -3,6 +3,7 @@ body {
     font-family: 'Cambria';
     background-color: rgb(226, 178, 186);
 }
+
 main {
     display: flex;
     flex-direction: column;
@@ -13,29 +14,33 @@ main {
     margin-right: 5em;
     background-color: lavender;
     border: solid 5px purple;
-    border-radius: 20%;
-    
+    border-radius: 20%;    
 }
+
 #display {
     font-size: 30px;
     font-family: 'Times New Roman';
 }
+
 #total {
     font-size: 30px;
     font-family: 'Times New Roman';
 }
+
 #input {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 0, .25em, 0, .25em;
 }
+
 h1 {
     text-decoration: bold;
     font-family: Luminari, fantasy;
     margin-top: .75em;
     margin-bottom: 0em;
 }
+
 input {
     font-family: 'Times New Roman';
     font-size: 1em;
@@ -46,6 +51,7 @@ input {
     text-align: center;
     width: 8em;
 }
+
 #people {
     width: 3em;
 }
@@ -55,6 +61,5 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 0, .25em, 0, .25em;
-    
+    margin: 0, .25em, 0, .25em;  
 }
